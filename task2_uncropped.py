@@ -191,7 +191,7 @@ def animate_trajectory(video_path: str, trajectory: List[np.ndarray], radius: fl
 
 def main_uncropped():
     # Configuration
-    video_path = "Task2\slow_throw_and_fall.mp4"
+    video_path = "slow_throw_and_fall.mp4"
     k_m = 0.0001  # Air resistance coefficient / mass
     g = -9.8      # Gravitational acceleration
     
