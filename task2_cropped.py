@@ -274,7 +274,7 @@ def animate_predicted_trajectory(video_path: str, original_trajectory: List[np.n
     cap.release()
 
 def main_cropped():
-    video_path = "Final_Project_NP_Giorgi_Kezevadze\Task2/video_ball_test_cropped.mp4"
+    video_path = "video_ball_test_cropped.mp4"
     k_m = 0.0001
     g = -9.8
 
